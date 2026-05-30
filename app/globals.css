@@ -1,26 +1,33 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* Fonts */
+  --font-display: var(--font-cormorant), Georgia, serif;
+  --font-body: var(--font-jost), system-ui, sans-serif;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Shared */
+  --color-gold: #B8946A;
+  --color-gold-muted: #8A6F4E;
+  --color-gold-soft: #D8C3A5;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  /* Chronos dark world */
+  --color-void: #0A0A0A;
+  --color-void-2: #101014;
+  --color-card-dark: #15151B;
+  --color-card-dark-border: #26262F;
+  --color-parchment: #F6F3EE;
+  --color-text-muted: #9A968E;
+  --color-signal-green: #6FB07E;
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* MBI light world */
+  --color-pearl: #F7F8FB;
+  --color-pearl-2: #EEF2F8;
+  --color-white: #FFFFFF;
+  --color-royal: #0A2A5E;
+  --color-royal-2: #143A78;
+  --color-blue-tint: #E8F0FA;
+  --color-blue-soft: #D6E2F2;
+  --color-ink: #15233B;
+  --color-ink-muted: #5A6B85;
+  --color-border-light: #DDE6F1;
 }
