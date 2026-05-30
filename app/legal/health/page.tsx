@@ -45,7 +45,7 @@ export default function HealthPage() {
       <p>You can revoke Apple Health permissions at any time, disable Horizon check-ins via Account → Privacy, request deletion of your account and all associated data, or stop using Chronos whenever you choose.</p>
       <ul>
         <li><strong>To remove Health access:</strong> Apple Health → Sharing → Apps → Chronos</li>
-        <li><strong>To request account deletion:</strong> Available in-app via Account → Delete Account, or contact <a href="mailto:MyndBodiInstitute@gmail.com">MyndBodiInstitute@gmail.com</a></li>
+        <li><strong>To request account deletion:</strong> Available in-app via Account → Delete Account, or contact <a href="mailto:Hello@myndbodi.com">Hello@myndbodi.com</a></li>
       </ul>
       <p>Deleted accounts and identifiable health data are scheduled for removal within approximately 30 days of a verified request.</p>
 

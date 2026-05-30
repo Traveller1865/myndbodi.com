@@ -69,14 +69,14 @@ export default function TermsPage() {
 
       <h2 id="dispute">18–19. Indemnification &amp; Dispute Resolution</h2>
       <p>You agree to indemnify and hold harmless Mynd &amp; Bodi Institute and its affiliates from any claims, damages, liabilities, losses, and expenses arising from your use of the Services, your violation of these Terms, or your misuse of the platform.</p>
-      <p>Before filing any formal legal claim, you agree to first contact MBI at <a href="mailto:MyndBodiInstitute@gmail.com">MyndBodiInstitute@gmail.com</a> and provide a written description of the dispute. We will attempt to resolve the matter informally within 30 days.</p>
+      <p>Before filing any formal legal claim, you agree to first contact MBI at <a href="mailto:Hello@myndbodi.com">Hello@myndbodi.com</a> and provide a written description of the dispute. We will attempt to resolve the matter informally within 30 days.</p>
 
       <h2 id="governing-law">20. Governing Law</h2>
       <p>These Terms shall be governed by and construed under the laws of the State of Louisiana, without regard to conflict of law principles. Any disputes arising from these Terms or the Services shall be resolved in the appropriate courts located within Louisiana, unless otherwise required by applicable law.</p>
 
       <h2 id="contact">21–22. Changes &amp; Contact</h2>
       <p>We may update these Terms periodically. Changes become effective upon posting the revised version. Continued use of Chronos after updates constitutes acceptance of the revised Terms.</p>
-      <p><strong>Mynd &amp; Bodi Institute (MBI)</strong><br />Email: <a href="mailto:MyndBodiInstitute@gmail.com">MyndBodiInstitute@gmail.com</a></p>
+      <p><strong>Mynd &amp; Bodi Institute (MBI)</strong><br />Email: <a href="mailto:Hello@myndbodi.com">Hello@myndbodi.com</a></p>
 
     </LegalPage>
   );

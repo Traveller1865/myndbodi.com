@@ -64,7 +64,7 @@ export default function BetaPage() {
 
       <h2 id="contact">13–14. Acceptance &amp; Contact</h2>
       <p>By installing, accessing, or using the Chronos beta application, you acknowledge that you have read this Agreement, understand it, and agree to be bound by its terms.</p>
-      <p><strong>Mynd &amp; Bodi Institute (MBI)</strong><br />Email: <a href="mailto:MyndBodiInstitute@gmail.com">MyndBodiInstitute@gmail.com</a></p>
+      <p><strong>Mynd &amp; Bodi Institute (MBI)</strong><br />Email: <a href="mailto:Hello@myndbodi.com">Hello@myndbodi.com</a></p>
 
     </LegalPage>
   );

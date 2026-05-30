@@ -113,7 +113,7 @@ export default function PrivacyPage() {
       <h2 id="contact">15–17. Changes &amp; Contact</h2>
       <p>We may update this Privacy Policy to reflect product changes, legal requirements, or operational improvements. Material changes will be communicated through the app or other appropriate channels. Continued use of Chronos after updates constitutes acceptance of the revised policy.</p>
       <p>For privacy requests, data access requests, or deletion inquiries:</p>
-      <p><strong>Mynd &amp; Bodi Institute (MBI)</strong><br />Email: <a href="mailto:MyndBodiInstitute@gmail.com">MyndBodiInstitute@gmail.com</a></p>
+      <p><strong>Mynd &amp; Bodi Institute (MBI)</strong><br />Email: <a href="mailto:Hello@myndbodi.com">Hello@myndbodi.com</a></p>
 
     </LegalPage>
   );
