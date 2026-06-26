@@ -2,6 +2,7 @@ import { EyebrowLabel } from '@/components/EyebrowLabel';
 import { Heading } from '@/components/Heading';
 import { Button } from '@/components/Button';
 import { Section } from '@/components/Section';
+import { ChronosPreview } from '@/components/ChronosPreview';
 
 const trustPoints = [
   {
@@ -15,6 +16,29 @@ const trustPoints = [
   {
     title: 'AI explains.',
     body: 'Language summarizes what matters, in plain terms — with context, not conclusions.',
+  },
+];
+
+const loopSteps = [
+  {
+    number: '01',
+    label: 'SYNC',
+    body: 'Chronos reads your Apple Watch data overnight: HRV, resting heart rate, sleep, and activity.',
+  },
+  {
+    number: '02',
+    label: 'SCORE',
+    body: 'A deterministic algorithm computes your score (0–100) against your personal baseline. No population norms. No guesswork.',
+  },
+  {
+    number: '03',
+    label: 'EXPLAIN',
+    body: 'Two drivers surface: the signals that moved your score most today. Always two. Never a list.',
+  },
+  {
+    number: '04',
+    label: 'NUDGE',
+    body: 'One clear action, calibrated to what your data actually shows. One per day. Not a to-do list.',
   },
 ];
 
@@ -41,6 +65,14 @@ export default function ChronosPage() {
                   Join the Beta →
                 </Button>
               </div>
+            </div>
+
+            {/* Right: accurate product preview */}
+            <div className="flex flex-col items-center md:items-end gap-3">
+              <ChronosPreview />
+              <p className="font-body text-[12px] leading-relaxed text-text-muted max-w-[480px]">
+                Illustrative. Your score reflects your own data, compared only to you.
+              </p>
             </div>
           </div>
         </div>
@@ -80,6 +112,38 @@ export default function ChronosPage() {
           </p>
         </div>
       </section>
+
+      {/* Section 3 — The daily loop */}
+      <Section
+        eyebrow={{ text: 'How It Works', variant: 'dot' }}
+        heading={{ text: 'The same loop, every morning.', size: 'lg' }}
+        className="bg-void"
+      >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {loopSteps.map((step) => (
+            <div key={step.number} className="flex flex-col gap-4">
+              <div className="flex items-center gap-3">
+                <span className="font-display font-semibold text-[13px]" style={{ color: '#B8946A' }}>
+                  {step.number}
+                </span>
+                <span
+                  className="font-body font-semibold text-[10px] uppercase tracking-[0.2em]"
+                  style={{ color: '#B8946A' }}
+                >
+                  · {step.label}
+                </span>
+              </div>
+              <div
+                className="w-full h-px"
+                style={{ background: 'linear-gradient(to right, #B8946A, transparent)' }}
+              />
+              <p className="font-body text-[13px] leading-[1.6] text-text-muted">
+                {step.body}
+              </p>
+            </div>
+          ))}
+        </div>
+      </Section>
 
     </div>
   );

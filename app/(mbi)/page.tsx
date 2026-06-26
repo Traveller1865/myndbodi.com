@@ -4,6 +4,7 @@ import { Button } from '@/components/Button';
 import { Card } from '@/components/Card';
 import { Section } from '@/components/Section';
 import { Divider } from '@/components/Divider';
+import { ChronosPreview } from '@/components/ChronosPreview';
 
 export default function HomePage() {
   return (
@@ -26,11 +27,11 @@ export default function HomePage() {
             <div className="flex flex-col gap-7">
               <EyebrowLabel text="Preventative-first health intelligence" variant="rule" />
               <Heading size="xl">
-                Know your body. Own your health.{' '}
-                <span style={{ color: '#B8946A' }}>Live better.</span>
+                Your body keeps score.<br />
+                <span style={{ color: '#B8946A' }}>Chronos reads it every morning.</span>
               </Heading>
               <p className="font-body text-[16px] leading-relaxed" style={{ color: '#5A6B85' }}>
-                MBI builds health intelligence that helps you understand signals earlier, see the full picture, and act with clarity.
+                One score. Two drivers. One nudge. Built on your data — not population averages. Available for Apple Watch.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Button variant="primary" href="#foundation">
@@ -40,6 +41,9 @@ export default function HomePage() {
                   Meet Chronos →
                 </Button>
               </div>
+            </div>
+            <div className="flex justify-center md:justify-end">
+              <ChronosPreview />
             </div>
           </div>
         </div>
@@ -55,15 +59,15 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Card
               title="Science First"
-              body="We build on peer-reviewed research and continuous scientific validation. No claims we can't support."
+              body="Every score is computed by rule, traceable to peer-reviewed inputs. No black boxes. No claims we can't support."
             />
             <Card
               title="Privacy by Design"
-              body="Your data belongs to you. We collect only what is necessary, retain only what serves you, and never sell it."
+              body="Your data never leaves your control. We collect only what serves your score. We never sell it, and we never use population data to judge it."
             />
             <Card
-              title="Human Centered"
-              body="Technology should elevate the human touch, not replace it. Chronos is the first expression of that commitment."
+              title="Within-User, Always"
+              body="Your score compares you to you. Not to averages. Not to other users. What counts as 'good' is defined by your own established baseline."
             />
           </div>
           <p className="font-body text-[13px] text-ink-muted text-center mt-10">

@@ -1,4 +1,5 @@
-// Tailwind CSS v4 — design tokens are defined in app/globals.css via @theme.
-// See lib/design-tokens.ts for the matching TypeScript constants.
-// This file is retained as a reference anchor; v4 does not require it.
-export default {};
+// Tailwind CSS v4 — this project has no JavaScript/TypeScript configuration object.
+// All design tokens (colors, fonts, spacing, theme values) are defined in CSS:
+// see app/globals.css inside the `@theme { ... }` block. Tailwind v4 reads its
+// configuration from CSS, not from this file, so nothing is exported here.
+export {};
