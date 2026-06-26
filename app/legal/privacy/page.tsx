@@ -54,7 +54,7 @@ export default function PrivacyPage() {
       <h3>B. User-Provided Information</h3>
       <p>You may also provide: name or display name, email address, date of birth, height and body profile details, mood inputs and journal reflections, wellness goals, and feedback and support submissions.</p>
       <h3>C. Usage &amp; Device Data</h3>
-      <p>We collect operational analytics to maintain and improve the platform, including app opens and session duration, feature interactions and screen views, device type and operating system version, app version, error logs and crash diagnostics, and push notification engagement.</p>
+      <p>We collect operational analytics to maintain and improve the platform, including app opens and session duration, feature interactions and screen views, device type and operating system version, app version, error logs and crash diagnostics reported via Sentry, and push notification engagement.</p>
       <p>We do not collect precise GPS location data.</p>
 
       <h2 id="how-we-use">4. How We Use Your Information</h2>
@@ -83,7 +83,7 @@ export default function PrivacyPage() {
       <p>Chronos stores and processes data using Supabase-managed cloud infrastructure, hosted primarily in the United States. Data is encrypted at rest and in transit. Access is protected by row-level security controls.</p>
 
       <h2 id="data-access">9. Who Has Access to Your Data</h2>
-      <p>Access to user data is limited to: you, authorized MBI operational personnel for platform support and security purposes, and Supabase acting as a data processor under appropriate data handling obligations.</p>
+      <p>Access to user data is limited to: you, authorized MBI operational personnel for platform support and security purposes, Supabase acting as a data processor under appropriate data handling obligations, and Sentry (sentry.io) acting as a crash reporting and performance monitoring processor. Sentry receives crash reports, app hang events, performance traces, and an opaque anonymous identifier for crash correlation. Sentry does not receive your name, email address, or any health data.</p>
       <p>We do not sell personal data. We do not share identifiable health data with employers, insurers, or third parties without your explicit authorization.</p>
 
       <h2 id="data-retention">10. Data Retention</h2>

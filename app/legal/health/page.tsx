@@ -19,7 +19,7 @@ export default function HealthPage() {
       <h2 id="what-we-read">What We Read</h2>
       <p>Depending on your device and permissions, Chronos may access:</p>
       <ul>
-        <li><strong>Heart Rate Variability (HRV)</strong> — to assess your autonomic nervous system recovery</li>
+        <li><strong>Heart Rate Variability (HRV)</strong> — to track your personal recovery patterns</li>
         <li><strong>Resting Heart Rate</strong> — to track cardiovascular baseline trends</li>
         <li><strong>Respiratory Rate</strong> — to monitor breathing patterns during rest</li>
         <li><strong>Sleep Duration and Sleep Quality</strong> — to understand your recovery cycles</li>

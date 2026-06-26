@@ -56,7 +56,7 @@ export function Footer() {
           {/* Copyright */}
           <div className="mt-6 pt-6 border-t" style={{ borderColor: isChronos ? '#26262F' : 'rgba(255,255,255,0.12)' }}>
             <p className="font-body text-[12px]" style={{ color: mutedColor }}>
-              © 2025 Mynd Bodi Institute, LLC
+              © 2026 Mynd Bodi Institute, LLC
             </p>
           </div>
         </div>
