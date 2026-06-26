@@ -43,7 +43,7 @@ export default function TermsPage() {
       <p><strong>If you believe you are experiencing a medical emergency, contact your local emergency services immediately. Do not use Chronos as an emergency monitoring tool.</strong></p>
 
       <h2 id="horizon">6. The Horizon Monitoring System</h2>
-      <p>Chronos includes a feature called Horizon. If your Chronos Resilience Score remains below a defined wellness threshold for three or more consecutive days, a member of the MBI team may personally reach out to you to check in.</p>
+      <p>Chronos includes a feature called Horizon. If Chronos detects a sustained low-score trend, the MBI team may follow up with you directly. This occurs only if your data suggests you may benefit from support.</p>
       <p>You acknowledge and agree that this is a human wellness check-in, not an automated clinical service; it is based solely on the duration and level of the trend you are tracking; it does not constitute a diagnosis, clinical assessment, or recommendation for medical treatment; and you may disable this feature at any time via Account → Privacy → Horizon Check-ins.</p>
 
       <h2 id="ai-content">7. AI-Generated Content &amp; Automated Insights</h2>

@@ -37,7 +37,7 @@ export default function HealthPage() {
       <p>Your data may be processed locally on your device, and securely in your private Chronos account via Supabase cloud infrastructure hosted in the United States. Data is encrypted at rest and in transit. Access is protected by row-level security controls. Only you, secure system infrastructure, and authorized MBI operational personnel (when necessary for support or platform reliability) have access to your data.</p>
 
       <h2 id="horizon">About the Horizon Monitoring Feature</h2>
-      <p>Chronos includes a feature called Horizon. If your Chronos Resilience Score falls below a defined wellness threshold for three or more consecutive days, a member of the MBI team may personally reach out to check in with you.</p>
+      <p>Chronos includes a feature called Horizon. If Chronos detects a sustained low-score trend, the MBI team may follow up with you directly. This occurs only if your data suggests you may benefit from support.</p>
       <p>This is a <strong>human wellness check-in</strong> — not automated clinical monitoring. It is based solely on the duration and pattern of your score trend, not a clinical assessment of your health. Any outreach is supportive in nature and carries no clinical authority.</p>
       <p>You can turn this off at any time: <strong>Account → Privacy → Horizon Check-ins</strong></p>
 

@@ -39,7 +39,7 @@ export default function BetaPage() {
       <p>AI-generated insights, wellness scores, and recommendations may be inaccurate or incomplete. <strong>Always consult a qualified healthcare professional regarding medical concerns.</strong> If you believe you are experiencing a medical emergency, contact your local emergency services immediately.</p>
 
       <h2 id="horizon">5. The Horizon Monitoring Feature</h2>
-      <p>During this beta, Chronos includes a feature called Horizon. If your Chronos Resilience Score remains below a defined wellness threshold for three or more consecutive days, a member of the MBI team may personally reach out to you to check in.</p>
+      <p>During this beta, Chronos includes a feature called Horizon. If Chronos detects a sustained low-score trend, the MBI team may follow up with you directly. This occurs only if your data suggests you may benefit from support.</p>
       <p>You acknowledge that this is a voluntary human wellness check-in from MBI, it is based solely on the duration and pattern of your score trend, it does <strong>not</strong> constitute a diagnosis or clinical recommendation, and you may disable Horizon check-ins at any time via Account → Privacy → Horizon Check-ins.</p>
 
       <h2 id="feedback">6. Feedback &amp; Suggestions</h2>

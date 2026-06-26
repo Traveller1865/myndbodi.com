@@ -5,48 +5,6 @@ import { Card } from '@/components/Card';
 import { Section } from '@/components/Section';
 import { Divider } from '@/components/Divider';
 
-function HeroVisual() {
-  const cards = [
-    { label: 'HRV Trend', value: '62 ms', delta: '+4%' },
-    { label: 'Sleep Quality', value: '84', delta: 'Good' },
-    { label: 'Recovery', value: '91', delta: 'Strong' },
-  ];
-
-  return (
-    <div className="relative w-full h-[320px] md:h-[420px] flex items-center justify-center">
-      <div
-        className="absolute inset-0 rounded-2xl"
-        style={{
-          background: 'radial-gradient(ellipse 80% 70% at 60% 40%, #D6E2F2 0%, transparent 70%)',
-        }}
-      />
-      <div className="relative flex flex-col gap-3 w-[220px]">
-        {cards.map((card, i) => (
-          <div
-            key={card.label}
-            className="bg-white border border-border-light rounded-[10px] px-4 py-3 flex items-center justify-between"
-            style={{
-              boxShadow: '0 4px 24px rgba(10,42,94,0.08)',
-              transform: `translateX(${i % 2 === 1 ? '28px' : '0px'})`,
-            }}
-          >
-            <div>
-              <p className="font-body text-[11px] text-ink-muted uppercase tracking-[0.12em]">{card.label}</p>
-              <p className="font-display font-semibold text-[22px] text-royal leading-none mt-0.5">{card.value}</p>
-            </div>
-            <span
-              className="font-body text-[12px] font-medium px-2 py-1 rounded-full"
-              style={{ background: '#E8F0FA', color: '#0A2A5E' }}
-            >
-              {card.delta}
-            </span>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
 export default function HomePage() {
   return (
     <div className="flex flex-col">
@@ -83,7 +41,6 @@ export default function HomePage() {
                 </Button>
               </div>
             </div>
-            <HeroVisual />
           </div>
         </div>
       </section>

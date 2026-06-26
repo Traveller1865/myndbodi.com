@@ -63,10 +63,10 @@ export default function PrivacyPage() {
       <p>Chronos is designed as a preventative wellness platform. It is <strong>not</strong> a diagnostic medical system.</p>
 
       <h2 id="horizon">5. The Horizon Monitoring System</h2>
-      <p>Chronos includes an internal safety feature called Horizon. If your Chronos Resilience Score falls below a defined wellness threshold for three or more consecutive days, MBI may be notified so that a team member can personally reach out to check in.</p>
+      <p>Chronos includes an internal safety feature called Horizon. If Chronos detects a sustained low-score trend, the MBI team may follow up with you directly. This occurs only if your data suggests you may benefit from support.</p>
       <p>This is a human safety check — it is <strong>not</strong> automated clinical triage, diagnosis, or treatment. The outreach is supportive in nature.</p>
       <p>You can disable Horizon check-ins at any time via <strong>Account → Privacy → Horizon Check-ins</strong>.</p>
-      <p>When Horizon triggers, the following information may be visible to MBI: your anonymized user identifier (not your name or email by default), your score values for the relevant days, and the dates of the low-score pattern. No health raw data is transmitted to the founder device as part of this alert.</p>
+      <p>When Horizon triggers, the following information may be visible to MBI: your anonymized user identifier (never your name or email), your score values for the relevant days, and the dates of the low-score pattern. No health raw data is transmitted to MBI as part of this alert.</p>
 
       <h2 id="ai-processing">6. AI &amp; Automated Processing</h2>
       <p>Chronos uses automated systems, including machine learning models and AI-generated narrative explanations, to interpret wellness trends, generate behavioral observations, summarize patterns, and personalize the user experience. These systems are intended to support wellness awareness and behavioral guidance only.</p>
