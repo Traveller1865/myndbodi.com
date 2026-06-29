@@ -126,24 +126,19 @@ export default function ChronosPage() {
         heading={{ text: 'The same loop, every morning.', size: 'lg' }}
         className="bg-void"
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {loopSteps.map((step) => (
-            <div key={step.number} className="flex flex-col gap-4">
-              <div className="flex items-center gap-3">
-                <span className="font-display font-semibold text-[13px]" style={{ color: '#B8946A' }}>
-                  {step.number}
-                </span>
-                <span
-                  className="font-body font-semibold text-[10px] uppercase tracking-[0.2em]"
-                  style={{ color: '#B8946A' }}
-                >
-                  · {step.label}
-                </span>
-              </div>
-              <div
-                className="w-full h-px"
-                style={{ background: 'linear-gradient(to right, #B8946A, transparent)' }}
-              />
+            <div
+              key={step.number}
+              className="rounded-[16px] border p-6 md:p-7 flex flex-col gap-3"
+              style={{ background: '#111111', borderColor: '#1f1f26' }}
+            >
+              <span className="font-display font-semibold text-[13px]" style={{ color: '#B8946A' }}>
+                {step.number}
+              </span>
+              <h3 className="font-display font-medium text-[20px] text-parchment leading-snug tracking-[0.04em]">
+                {step.label}
+              </h3>
               <p className="font-body text-[13px] leading-[1.6] text-text-muted">
                 {step.body}
               </p>
