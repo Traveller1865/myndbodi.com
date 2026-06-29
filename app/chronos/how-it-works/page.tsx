@@ -43,7 +43,7 @@ export default function HowItWorksPage() {
         </div>
       </Section>
 
-      <div className="max-w-[1280px] mx-auto px-5 md:px-8 w-full">
+      <div className="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16 w-full">
         <Divider />
       </div>
 
@@ -81,7 +81,7 @@ export default function HowItWorksPage() {
         </div>
       </Section>
 
-      <div className="max-w-[1280px] mx-auto px-5 md:px-8 w-full">
+      <div className="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16 w-full">
         <Divider />
       </div>
 
@@ -96,13 +96,13 @@ export default function HowItWorksPage() {
         </div>
       </Section>
 
-      <div className="max-w-[1280px] mx-auto px-5 md:px-8 w-full">
+      <div className="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16 w-full">
         <Divider />
       </div>
 
       {/* Section 4 — Beta CTA */}
       <section className="w-full py-[56px] md:py-[80px]">
-        <div className="max-w-[1280px] mx-auto px-5 md:px-8">
+        <div className="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16">
           <p className="font-body text-[13px] text-text-muted max-w-xl leading-relaxed">
             Chronos is currently in private beta. A broader beta is coming. To be considered,
             contact{' '}

@@ -11,7 +11,7 @@ export default function HomePage() {
     <div className="flex flex-col">
       {/* Hero */}
       <section
-        className="relative w-full overflow-hidden"
+        className="relative w-full overflow-hidden flex items-center lg:min-h-[85vh]"
         style={{
           background: 'linear-gradient(135deg, #FFFFFF 0%, #F7F8FB 50%, #E8F0FA 100%)',
         }}
@@ -22,9 +22,10 @@ export default function HomePage() {
             background: 'radial-gradient(ellipse at top right, rgba(10,42,94,0.06) 0%, transparent 70%)',
           }}
         />
-        <div className="max-w-[1280px] mx-auto px-5 md:px-8 py-20 md:py-28 relative">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            <div className="flex flex-col gap-7">
+        <div className="w-full max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16 py-20 lg:py-16 relative">
+          <div className="grid grid-cols-1 lg:grid-cols-[55fr_45fr] gap-8 lg:gap-12 items-center">
+            {/* Copy + desktop CTAs */}
+            <div className="order-1 flex flex-col gap-7">
               <EyebrowLabel text="Preventative-first health intelligence" variant="rule" />
               <Heading size="xl">
                 Your body keeps score.<br />
@@ -33,7 +34,7 @@ export default function HomePage() {
               <p className="font-body text-[16px] leading-relaxed" style={{ color: '#5A6B85' }}>
                 One score. Two drivers. One nudge. Built on your data — not population averages. Available for Apple Watch.
               </p>
-              <div className="flex flex-col sm:flex-row gap-3">
+              <div className="hidden lg:flex flex-row gap-4">
                 <Button variant="primary" href="#foundation">
                   Explore MBI →
                 </Button>
@@ -42,8 +43,23 @@ export default function HomePage() {
                 </Button>
               </div>
             </div>
-            <div className="flex justify-center md:justify-end">
+
+            {/* Card + caption */}
+            <div className="order-2 flex flex-col items-center lg:items-end gap-3">
               <ChronosPreview />
+              <p className="font-body text-[12px] leading-relaxed max-w-[460px]" style={{ color: '#5A6B85' }}>
+                Illustrative. Your score reflects your own data, compared only to you.
+              </p>
+            </div>
+
+            {/* Mobile CTAs */}
+            <div className="order-3 flex lg:hidden flex-col gap-3">
+              <Button variant="primary" href="#foundation">
+                Explore MBI →
+              </Button>
+              <Button variant="ghost" href="/chronos">
+                Meet Chronos →
+              </Button>
             </div>
           </div>
         </div>
@@ -80,7 +96,7 @@ export default function HomePage() {
 
       {/* Section 3 — Bridge to Chronos */}
       <section className="w-full py-[56px] md:py-[80px]" style={{ backgroundColor: '#EEF2F8' }}>
-        <div className="max-w-[1280px] mx-auto px-5 md:px-8">
+        <div className="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16">
           <div className="flex flex-col gap-6 max-w-2xl">
             <EyebrowLabel text="Chronos · Private Beta" variant="rule" />
             <Heading size="lg">Our first product is ready for its first users.</Heading>

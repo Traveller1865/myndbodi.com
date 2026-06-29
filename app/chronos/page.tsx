@@ -48,31 +48,38 @@ export default function ChronosPage() {
 
       {/* Section 1 — Hero */}
       <section
-        className="w-full"
+        className="w-full flex items-center lg:min-h-[85vh]"
         style={{ background: 'radial-gradient(140% 120% at 80% 0%, #14141c 0%, #0A0A0A 55%)' }}
       >
-        <div className="max-w-[1280px] mx-auto px-5 md:px-8 py-20 md:py-28">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            {/* Left: copy */}
-            <div className="flex flex-col gap-7">
+        <div className="w-full max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16 py-20 lg:py-16">
+          <div className="grid grid-cols-1 lg:grid-cols-[55fr_45fr] gap-8 lg:gap-12 items-center">
+            {/* Copy + desktop CTA */}
+            <div className="order-1 flex flex-col gap-7">
               <EyebrowLabel text="Today's signals, noticed" variant="dot" />
               <Heading size="xl">Chronos noticed…</Heading>
               <p className="font-body text-[17px] leading-relaxed text-text-muted">
                 Signals surfaced early. Patterns taking shape. Your body&apos;s story, told with clarity.
               </p>
-              <div>
+              <div className="hidden lg:flex flex-row gap-4">
                 <Button variant="ghost" href="mailto:Hello@myndbodi.com">
                   Join the Beta →
                 </Button>
               </div>
             </div>
 
-            {/* Right: accurate product preview */}
-            <div className="flex flex-col items-center md:items-end gap-3">
+            {/* Card + caption */}
+            <div className="order-2 flex flex-col items-center lg:items-end gap-3">
               <ChronosPreview />
-              <p className="font-body text-[12px] leading-relaxed text-text-muted max-w-[480px]">
+              <p className="font-body text-[12px] leading-relaxed text-text-muted max-w-[460px]">
                 Illustrative. Your score reflects your own data, compared only to you.
               </p>
+            </div>
+
+            {/* Mobile CTA */}
+            <div className="order-3 flex lg:hidden flex-col gap-3">
+              <Button variant="ghost" href="mailto:Hello@myndbodi.com">
+                Join the Beta →
+              </Button>
             </div>
           </div>
         </div>
@@ -80,7 +87,7 @@ export default function ChronosPage() {
 
       {/* Section 2 — Trust architecture */}
       <section className="w-full py-[56px] md:py-[80px]" style={{ backgroundColor: '#101014' }}>
-        <div className="max-w-[1280px] mx-auto px-5 md:px-8 flex flex-col gap-10">
+        <div className="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16 flex flex-col gap-10">
           <div className="flex flex-col gap-5">
             <EyebrowLabel text="Built on trust" variant="dot" />
             <Heading size="lg">Trust is the architecture.</Heading>

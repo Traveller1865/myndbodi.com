@@ -22,7 +22,7 @@ export function Footer() {
     <footer>
       <Divider />
       <div style={{ backgroundColor: bgColor }}>
-        <div className="max-w-[1280px] mx-auto px-5 md:px-8 py-10">
+        <div className="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16 py-10">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             {/* Wordmark */}
             <span className="font-display font-semibold text-[22px]" style={{ color: textColor }}>

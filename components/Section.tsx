@@ -14,7 +14,7 @@ type SectionProps = {
 export function Section({ eyebrow, heading, subheading, children, className = '' }: SectionProps) {
   return (
     <section className={`w-full py-[56px] md:py-[80px] ${className}`}>
-      <div className="max-w-[1280px] mx-auto px-5 md:px-8">
+      <div className="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16">
         {(eyebrow || heading || subheading) && (
           <div className="flex flex-col gap-4 mb-12">
             {eyebrow && <EyebrowLabel text={eyebrow.text} variant={eyebrow.variant} />}

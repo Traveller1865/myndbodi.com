@@ -42,7 +42,7 @@ export function Nav() {
 
   return (
     <nav className={`w-full ${bgClass} sticky top-0 z-50`}>
-      <div className="max-w-[1280px] mx-auto px-5 md:px-8 h-[64px] flex items-center justify-between">
+      <div className="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16 h-[64px] flex items-center justify-between">
         {/* Left: monogram + rule + title */}
         <div className="flex items-center gap-3">
           <Link href={isChronos ? '/chronos' : '/'} className="font-display font-semibold text-[26px]" style={{ color: monogramColor }}>

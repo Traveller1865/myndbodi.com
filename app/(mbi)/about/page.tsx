@@ -64,7 +64,7 @@ export default function AboutPage() {
 
       {/* Section 3 — Contact */}
       <section className="w-full py-[56px] md:py-[80px]" style={{ backgroundColor: '#EEF2F8' }}>
-        <div className="max-w-[1280px] mx-auto px-5 md:px-8">
+        <div className="max-w-[1600px] mx-auto px-6 md:px-10 lg:px-16">
           <p className="font-body text-[15px]" style={{ color: '#5A6B85' }}>
             Questions or press inquiries:{' '}
             <a
